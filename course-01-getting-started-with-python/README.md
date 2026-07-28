@@ -1,5 +1,23 @@
-# Python for Everybody
+# Course 01 - Getting Started with Python
 
-This repository contains independently developed exercises and notes based on the concepts covered in the Python for Everybody specialization offered by the University of Michigan.
+This folder contains the projects and exercises developed while studying the first course of the **Python for Everybody** specialization.
 
-The goal is to reinforce Python fundamentals through original implementations and consistent practice.
+## About
+
+This course introduces the fundamentals of Python programming, covering essential concepts such as variables, expressions, conditional statements, functions, and loops. Each chapter includes practical projects designed to reinforce the topics learned throughout the course.
+
+## Contents
+
+The projects in this course include:
+- simple calculators and formulas
+- conditional logic exercises
+- function-based programs
+- loop and interaction examples
+
+## Technologies
+
+- Python 3
+
+## Author
+
+Eduardo Sousa

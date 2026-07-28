@@ -12,14 +12,21 @@ This chapter introduces the fundamental building blocks of Python programming, i
 - Arithmetic operators
 
 ## Project
-**Monthly Savings Estimator**
+**Monthly Savings Calculator**
 The program asks the user for their monthly income and monthly expenses, then calculates:
-- Monthly savings
-- Estimated yearly savings
+- monthly savings
+- estimated yearly savings
+
+## How to Run
+Run the script with Python:
+
+```bash
+python monthly_savings_calculator.py
+```
 
 ## Skills Practiced
-- Using variables
-- Receiving user input
-- Converting data types
-- Performing arithmetic calculations
-- Displaying formatted output
+- using variables
+- receiving user input
+- converting data types
+- performing arithmetic calculations
+- displaying formatted output
