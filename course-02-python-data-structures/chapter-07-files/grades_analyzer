@@ -1,0 +1,48 @@
+# Grades Analyzer
+
+total_students = 0
+total_score = 0
+max_score = 0
+min_score = 100
+approved = False
+students_approved = 0
+failed_students = 0
+
+# Opening the file with the grades
+file = open("grades.txt")
+
+# Reading the file line by line
+for line in file:
+    line = line.strip()
+    total_students += 1
+
+    # Splitting the line into pieces and extracting the score
+    piece = line.split(",")
+    score = int(piece[1])
+    total_score += score
+
+    # Discovering the max and min scores, and counting approved and failed students
+    if score > max_score:
+        max_score = score
+        student_max_score = piece[0]
+    if score < min_score:
+        min_score = score
+        student_min_score = piece[0]
+
+    if score >= 60:
+        approved = True
+        students_approved += 1
+    else:
+        failed_students += 1
+
+
+# Average score calculation
+average_score = total_score / total_students
+
+# Displaying the results
+print(f"Total Students: {total_students}")
+print(f"Average Score: {average_score}")
+print(f"Max Score: {max_score}, Student: {student_max_score}")
+print(f"Min Score: {min_score}, Student: {student_min_score}")
+print(f"Students Approved: {students_approved}")
+print(f"Students Failed: {failed_students}")
