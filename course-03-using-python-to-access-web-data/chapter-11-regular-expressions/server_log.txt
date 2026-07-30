@@ -1,0 +1,20 @@
+2026-07-30 08:01:15 INFO User: Maria ID:1001 Login successful
+2026-07-30 08:05:42 INFO User: João ID:1002 Login successful
+2026-07-30 08:10:03 WARNING User: Ana ID:1003 Disk usage at 85%
+2026-07-30 08:15:27 ERROR User: Lucas ID:1004 Invalid password
+2026-07-30 08:20:51 INFO User: Pedro ID:1005 File uploaded
+2026-07-30 08:23:16 INFO User: Maria ID:1001 File downloaded
+2026-07-30 08:30:08 ERROR User: João ID:1002 Connection timeout
+2026-07-30 08:35:44 INFO User: Carla ID:1006 Login successful
+2026-07-30 08:40:12 WARNING User: Pedro ID:1005 High memory usage
+2026-07-30 08:45:33 INFO User: Lucas ID:1004 Password changed
+2026-07-30 08:50:27 ERROR User: Ana ID:1003 Access denied
+2026-07-30 08:55:09 INFO User: Maria ID:1001 Logout
+2026-07-30 09:01:40 INFO User: Bruno ID:1007 Login successful
+2026-07-30 09:07:22 WARNING User: Carla ID:1006 CPU temperature high
+2026-07-30 09:12:54 ERROR User: Pedro ID:1005 Connection lost
+2026-07-30 09:18:36 INFO User: João ID:1002 Logout
+2026-07-30 09:24:11 INFO User: Ana ID:1003 File uploaded
+2026-07-30 09:30:05 ERROR User: Bruno ID:1007 Invalid token
+2026-07-30 09:35:49 INFO User: Lucas ID:1004 Login successful
+2026-07-30 09:40:18 INFO User: Carla ID:1006 Logout
